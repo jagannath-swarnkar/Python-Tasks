@@ -6,11 +6,6 @@ app = Flask(__name__)
 @app.route('/', methods=['GET','POST'])
 def hello_world():
 	method = request.method
-	# if method == 'GET':
-	# 	abort(497)
-	# else:
-	# 	name = request.json.get('name')
-	# 	return("name = "+name)
 	if method == 'POST':
 		name = request.json.get('name')
 		return ("Hello, {}".format(name))
