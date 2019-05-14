@@ -1,11 +1,11 @@
 # Discuss - Multi-processing and Multi-threading in Python
-## MULTI-PROCESSING 
+## MULTI-THREADING 
 MultiThreading is the ability of a processor to perform more than two threads(moltiple threads) concurrently within the same process.
 
 ex- when we have to make multiple requests like 1000 requests using api then in python as it is synchronous programe so it will execute one by one and it will take much more time to execute the whole programe
     beside this we can use multithreading, with using multithreading we can make multiple requests in same time and it will execute the whole process in less time.
 
-## MULTI-THREADING
+## MULTI-PROCESSING
 Multiprocessing is the ability of a system to support more than one processor at the same time.
 more than one cpu are added to the system to increase the computing speed of the programe
 
